@@ -373,10 +373,10 @@ if __name__ == "__main__":
     dag = DAGGen(True, **dag_param_1,)
 
     print(dag)
-    dag.draw_est('bound.png')
-    dag.draw_pulled('stretched.png')
+    dag.draw_est('fig/bound.png')
+    dag.draw_pulled('fig/stretched.png')
     dag.check_depen()
     dag.print_U()
-    dag.draw_pulled('depen.png')
+    dag.draw_pulled('fig/depen.png')
 
 
